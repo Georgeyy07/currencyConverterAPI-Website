@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Currency Converter</h1>
+    <div id="currency_codes"></div>
+
+    <form id="converter_form">
+        <label for="amount"><b>Amount:</b></label>
+        <input class="inputs" type="number" id="amount" required>
+
+        <label for="from_currency"><b>From Currency:</b></label>
+        <select class="inputs" id="from_currency" required>
+
+        </select>
+
+        <label for="to_currency"><b>To Currency:</b></label>
+        <select class="inputs" id="to_currency" required>
+
+        </select>
+        <br>
+        <br>
+        <button id="submit">Convert</button>
+        <button id="reverse">🔂</button>
+    
+        <!--make a new button that reverses the options chosen-->
+        <!--if button clicked make from currency = to currency and to currency = from currency-->
+    </form>    
+    <br>
+
+    <div id="conversion_result"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>

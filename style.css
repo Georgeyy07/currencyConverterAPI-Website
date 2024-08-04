@@ -1,0 +1,58 @@
+/* id is a #
+
+class is a . 
+
+*/
+
+body {
+    margin: 10px;
+    background-color: #1f2833;
+}
+
+h1{
+    text-align: center;
+    color: #66fcf1;
+}
+
+label{
+    color: #66fcf1;
+    font-size: larger;
+
+}
+
+select{
+    font-size: large;
+}
+
+#converter_form {
+    text-align: center;
+    font-size: larger;
+}
+
+#conversion_result {
+    text-align: center;
+    font-size: xx-large;
+    color: #66fcf1;
+}
+
+#submit {
+    text-align: center;
+    padding: 10px 20px;
+    color: white;
+    background-color: #66fcf1;
+    color: #1f2833;
+    border-radius: 5px;
+    font-size: x-large;
+    transition: background-color 0.3s ease;
+}
+
+#reverse{
+    font-size: x-large;
+    background-color: #1f2833;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    background-color: #35b6af;
+}
